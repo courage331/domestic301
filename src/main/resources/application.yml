@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test_db?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
+    username: root
+    password: root1234
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hiberanete:
+        format_sql: ture
